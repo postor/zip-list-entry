@@ -17,13 +17,11 @@ const RETURN_TYPES = {
  * @param {string} file 文件路径
  * @param {Object=} opt 可选参数 
  * @param {RETURN_TYPES=} [opt.return=Array] 以数组或对象形式返回结果
- * @param {string} opt.pass
  * @return {Promise}
  */
 function listEntries(file,opt){
   opt = _.extend({
-    return:Array,
-    pass:''
+    return:Array
   },opt)
 
   return new Promise(function(resolve,reject){
