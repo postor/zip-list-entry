@@ -1,12 +1,16 @@
 {
   "name": "zip-list-entry",
   "version": "1.0.0",
-  "description": "",
+  "description": "list entry from zip file",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js --harmony"
   },
-  "author": "",
+  "repository": {    //项目资源库
+    "type": "git",
+    "url": "https://github.com/postor/zip-list-entry.git"
+  },
+  "author": "postor@gmail.com",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.4",
